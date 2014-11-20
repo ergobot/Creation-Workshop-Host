@@ -5,24 +5,17 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
- 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import javax.activation.DataHandler;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
- 
-
 import javax.ws.rs.core.MultivaluedMap;
-
-
-
 import javax.ws.rs.core.Response;
 
 import org.apache.commons.io.FileUtils;
@@ -36,7 +29,7 @@ public class FileService {
  
 	
 	
-	 private static final String SERVER_UPLOAD_LOCATION_FOLDER = "C://Users/nikos/Desktop/Upload_Files/";
+	 private static final String SERVER_UPLOAD_LOCATION_FOLDER = HostProperties.getSourceDir();
 
 		@POST
 		@Path("/upload")

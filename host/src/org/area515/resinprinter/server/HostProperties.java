@@ -33,8 +33,12 @@ public class HostProperties {
 //		sourceDir = HostProperties.getHostProperties().getProperty("sourcedir");
 //		fakeSerial = Boolean.parseBoolean(HostProperties.getHostProperties().getProperty("fakeserial"));
 		// Webapp war plugin doesn't cant find my config.properties - hardcoding for now
-		workingDir = "/home/user/CreationWorkshop/Host/workingdir";
-		sourceDir = "/home/user/CreationWorkshop/Host/sourcedir";
+//		workingDir = "/home/user/CreationWorkshop/Host/workingdir";
+//		sourceDir = "/home/user/CreationWorkshop/Host/sourcedir";
+//		fakeSerial = true;
+		
+		workingDir = "C:\\nonsync\\personal\\ResinPrinterHost\\printdir";
+		sourceDir = "C:\\nonsync\\personal\\ResinPrinterHost\\sourcedir";
 		fakeSerial = true;
 		
 		System.out.println("WorkingDir: " + workingDir);

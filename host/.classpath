@@ -26,5 +26,7 @@
 	<classpathentry kind="lib" path="libs/resteasy/resteasy-jaxrs-3.0.9.Final.jar"/>
 	<classpathentry kind="lib" path="libs/rxtx/RXTXcomm.zip"/>
 	<classpathentry kind="lib" path="libs/resteasy/resteasy-multipart-provider-3.0.9.Final.jar"/>
+	<classpathentry kind="lib" path="libs/resteasy/httpcore-4.2.5.jar"/>
+	<classpathentry kind="lib" path="libs/resteasy/apache-mime4j-0.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
